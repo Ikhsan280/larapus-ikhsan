@@ -18,6 +18,7 @@
           @else
           <a href="#" class="d-block">Alex BHZ</a>
           @endauth
+          
         </div>
       </div>
 
@@ -669,8 +670,10 @@
               <p>Informational</p>
             </a>
           </li>
+          
         </ul>
-      </nav>
+
+          </nav>
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
