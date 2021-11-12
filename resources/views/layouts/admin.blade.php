@@ -10,7 +10,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{asset('assets/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'">
   <!-- Tempusdominus Bootstrap 4 -->
   <link rel="stylesheet" href="{{asset('assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
   <!-- iCheck -->
@@ -18,7 +18,7 @@
   <!-- JQVMap -->
   <link rel="stylesheet" href="{{asset('assets/plugins/jqvmap/jqvmap.min.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{('assets/dist/css/adminlte.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/dist/css/adminlte.min.css')}}">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="{{asset('assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
   <!-- Daterange picker -->
@@ -35,26 +35,23 @@
   </div>
 
   <!-- Navbar -->
-  @include('layouts.partials.navbar')
+@include('layouts.partials.navbar')
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
   @include('layouts.partials.sidebar')
- {{-- end main sidebar --}}
-
+  <!-- End Main Sidebar -->
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
     @yield('header')
-     </div>
     <!-- /end content-header -->
 
     <!-- Main content -->
     <section class="content">
-        @yield('content')
+     @yield('content')
     </section>
-    <!-- /end main content -->
+    <!-- /End Main content -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
@@ -84,7 +81,7 @@
 <!-- Bootstrap 4 -->
 <script src="{{asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- ChartJS -->
-<script src="{{asset('assets/plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('assets/plugins/chart.js')}}/Chart.min.js')}}"></script>
 <!-- Sparkline -->
 <script src="{{asset('assets/plugins/sparklines/sparkline.js')}}"></script>
 <!-- JQVMap -->
